@@ -16,7 +16,24 @@ Genotype data on which to compute PPTRS:
 
 - Ancestry: Since cis-eqtl weights are computed from European subset, you can subset your data based on European ancestry.
 
-CODING PIPELINE:
+#########################################################################################################################
+
+Weights provided to compute PPTRS:
+
+cis-eQTL SNP weights computed from DPR have been provided for:
+- rectal gene expression (PROTECT)
+- colon gene expression (GTEx)
+- cortex gene expression (GTEx)
+- muscle gene expression (GTEx)
+
+
+TWAS weights of UC vs Control from UK Biobank provided for: 
+- 820 genes of rectum
+- 1097 genes of colon
+- 1075 genes of cortex
+- 777 genes of muscle
+
+####################### CODING PIPELINE ##################################################################################
 
 There are 2 steps of computing PPTRS:
 
@@ -49,3 +66,9 @@ Coding pipeline explained in detail:
   - We have the PPTRS gene weights in Data/PPTRS_gene_weights. 
   - To compute PPTRS, we simply take the sum of the predicted gene expression, weighted by their TWAS weights; where twas weights are computed from logisitc regression of UCstatus ~ PredictedGE in UKbiobank, for genes with TWAS p < 0.05
   - PPTRS results are written in folder: Results/PPTRS/
+
+###########################################################################################################################################################################
+
+Contact: Please reach out to sini.nagpal@gatech.edu for any questions.
+
+###########################################################################################################################################################################
