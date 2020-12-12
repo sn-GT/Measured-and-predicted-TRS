@@ -10,10 +10,9 @@ R packages:
 Genotype data on which to compute PPTRS: 
 - Convert your genotype data into standard plink format: bed/bim/fam 
 - ALl analysis was done using hg19 positions and list of snps given in the above file. Convert your data (rsIDs and positions) to hg19 using liftOver prior to running the scripts.
-- All the SNPs used in this analyses with their chr, position in hg19 are given in file: PPTRS/Data/All_SNPs_hg19_used_in_this_analysis.txt. You can check the overlap of snps with your data
-- Missing SNPs in your data: Check how many SNPs are missing in your data by comparing it with the list Data/All_SNPs_hg19_used_in_this_analysis.txt.
-If ony few SNPs are missing, it should not matter, since each gene consist of 4-8k SNPs, so missing out a few of them with small effect should not matter. 
-In case of many missing SNPs, you could pick SNP proxies and use the DPR cis-eQTL weight for the proxy SNP. However, that would require more coding work of screening snps within each gene and replacing the SNP with its proxy.
+- All the SNPs used in this analyses with their chr, position in hg19 are given in file: https://www.dropbox.com/s/zvqnbbtm0h2jw8s/All_SNPs_hg19_used_in_this_analysis.txt?dl=0
+  You can check the overlap of snps with your data.
+- Missing SNPs in your data: If ony few SNPs are missing, it should not matter, since each gene consist of 4-8k SNPs, so missing out a few of them with small effect should not matter. In case of many missing SNPs, you could pick SNP proxies and use the DPR cis-eQTL weight for the proxy SNP. However, that would require more coding work of screening snps within each gene and replacing the SNP with its proxy.
 
 - Ancestry: Since cis-eqtl weights are computed from European subset, you can subset your data based on European ancestry.
 

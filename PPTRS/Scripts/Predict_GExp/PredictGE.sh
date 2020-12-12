@@ -15,7 +15,7 @@ done
 reference_transcriptome="Rectum"
 
 # ADD full path where you have saved the folder named PPTRS
-home_path="/storage/scratch1/3/snagpal3/PPTRS_main"
+home_path="/storage/scratch1/3/snagpal3/PPTRS"
 
 # Path to PLINK2
 plink2_path='/storage/coda1/p-ggibson3/0/snagpal3/rich_project_bio-gibson/Tools/plink2_Mar19'
