@@ -1,2 +1,2 @@
 # Measured-and-predicted-TRS
-TRS and PPTRS to predict progression to colectomy in Ulcerative Colitis patients
+Transcirptional risk score (TRS) and Predicted Polygenic Trancriptional Risk Score (PPTRS) to predict progression to colectomy in Ulcerative Colitis patients
