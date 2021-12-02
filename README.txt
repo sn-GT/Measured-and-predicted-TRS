@@ -1,5 +1,4 @@
-Mo, Nagpal, et al. Stratification of risk of progression to colectomy in ulcerative colitis via measured and predicted gene expression. 
-The American Journal of Human Genetics (2021).
+Mo, Nagpal, et al. Stratification of risk of progression to colectomy in ulcerative colitis via measured and predicted gene expression. The American Journal of Human Genetics (2021).
 
 Please cite: https://pubmed.ncbi.nlm.nih.gov/34450030/
 
