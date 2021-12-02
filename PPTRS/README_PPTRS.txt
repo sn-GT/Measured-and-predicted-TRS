@@ -1,3 +1,8 @@
+TWAS-based PPTRS performed by Sini Nagpal, Georgia Tech (sini.nagpal@gatech.edu)
+
+Please cite paper if using the idea/code: https://pubmed.ncbi.nlm.nih.gov/34450030/ 
+Mo, Nagpal, et al. Stratification of risk of progression to colectomy in ulcerative colitis via measured and predicted gene expression (2021)
+
 Softwares needed:
 - Plink2
 - R 
